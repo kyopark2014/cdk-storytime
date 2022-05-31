@@ -204,7 +204,7 @@ export class CdkStoryStack extends Stack {
       handler: "index.handler", 
       timeout: cdk.Duration.seconds(10),
       environment: {
-        token: "xoxb-3205298473938-3233090599600-5Kr8k7W8dieUwoL5d7GekmpJ"
+        token: "sample-3205298473938-3233090599600-5Kr8k7W8dieUwoL5d7GekmpJ"
       }
     });    
     lambdaSlack.addEventSource(new SnsEventSource(topic)); 
