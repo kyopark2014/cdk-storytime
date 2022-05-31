@@ -39,7 +39,7 @@ exports.handler = async (event) => {
         setTimeout(() => resolve("wait..."), 1000)
       }
       else {
-        setTimeout(() => resolve("wait..."), 0)
+        setTimeout(() => resolve("done..."), 0)
       }
     });
   }
